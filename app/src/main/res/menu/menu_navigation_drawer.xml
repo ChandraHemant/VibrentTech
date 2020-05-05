@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cart"
+            android:checked="true"
+            android:icon="@drawable/ic_move_to_inbox"
+            android:title="Cart"
+            app:actionLayout="@layout/badge_navigation_plain" />
+    </group>
+
+    <group
+        android:id="@+id/grp_2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_inbox"
+            android:title="My Orders"
+            app:actionLayout="@layout/badge_navigation_plain" />
+
+    </group>
+
+
+
+
+</menu>
